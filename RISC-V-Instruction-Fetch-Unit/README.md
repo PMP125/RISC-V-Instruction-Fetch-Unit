@@ -53,8 +53,6 @@ The IFU operates synchronously with the clock and ensures correct instruction se
 1.	Open https://www.edaplayground.com
 2.	Select Verilog as the language
 3.	Paste the following files into the design section:
-o	program_counter.v
-o	instruction_memory.v
 o	instruction_fetch_unit.v
 4.	Paste tb_instruction_fetch_unit.v into the testbench section
 5.	Enable EPWave for waveform viewing
@@ -120,6 +118,7 @@ A one-minute video explaining the project is provided. The video includes a brie
 
 ## 13. Conclusion
 This project successfully demonstrates the design and simulation of a RISC-V Instruction Fetch Unit using Verilog HDL. The design adheres to the RV32I specification and correctly fetches instructions using a Program Counter and instruction memory. The project provides a strong foundation for understanding processor data path design and serves as a building block for more advanced RISC-V processor implementations.
+
 
 
 
