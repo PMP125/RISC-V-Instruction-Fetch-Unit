@@ -1,3 +1,4 @@
+![Instruction Fetch Unit Block Diagram](block_diagram.png)
  
  
  
@@ -110,4 +111,5 @@ A one-minute video explaining the project is provided. The video includes a brie
 
 13. Conclusion
 This project successfully demonstrates the design and simulation of a RISC-V Instruction Fetch Unit using Verilog HDL. The design adheres to the RV32I specification and correctly fetches instructions using a Program Counter and instruction memory. The project provides a strong foundation for understanding processor data path design and serves as a building block for more advanced RISC-V processor implementations.
+
 
